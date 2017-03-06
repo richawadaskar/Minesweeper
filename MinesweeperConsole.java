@@ -14,7 +14,7 @@ Public class MinesweeperConsole(){
 	char[][] upperBoard;
 	static boolean ENDGAME = false;
 	public static void main(String[] args){
-	P4_Wadaskar_Richa_MinesweeperConsole a = new P4_Wadaskar_Richa_MinesweeperConsole();
+	MinesweeperConsole a = new MinesweeperConsole();
 	System.out.println(“Minesweeper”);
 	a.levelChoosing();
 	a.runMinesweeper();
